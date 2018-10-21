@@ -15,3 +15,20 @@ html {
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+
+.nav a {
+  color:
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color:
+  border-radius
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color:
+}
+
+.nav .current {
+  background-color:
+}
