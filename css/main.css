@@ -49,11 +49,12 @@ li {
 .nav li:hover {
   background-color: #cc1465;
   color: white;
-  text-decoration: none;
 }
 
 .nav .current {
   background-color: #b20953;
+  border: 0.1px solid #b20953;
+  border-radius: 4px;
 }
 
 .nav {
@@ -70,7 +71,7 @@ li {
   max-width: inherit;
   padding: 0;
   background-color: #b2a212;
-  border: 3px solid #b2a212;
+  border: .10px solid #b2a212;
   border-radius: 4px;
 }
 
