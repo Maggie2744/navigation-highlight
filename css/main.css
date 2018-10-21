@@ -26,6 +26,7 @@ h1 {
   font-size: 3rem;
   font-family: 'Sigmar One', sans-serif;
   color: #b20953;
+  text-align: center;
 }
 
 h2 {
@@ -46,8 +47,10 @@ li {
   font-size: 1.125rem;
 }
 
-.nav a:hover {
+.nav li:hover {
   background-color: #cc1465;
+  color: white;
+  text-decoration: none;
 }
 
 .nav .current {
@@ -58,6 +61,7 @@ li {
   margin: .3em;
   padding: .2em .5em .3em;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .nav li {
@@ -68,6 +72,11 @@ li {
   background-color: #b2a212;
   border: 3px solid #b2a212;
   border-radius: 4px;
+}
+
+img {
+  display: block;
+  text-align: left;
 }
 
 p {
