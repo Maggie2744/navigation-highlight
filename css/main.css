@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: Georgia, serif;
   line-height: 1.5;
+  margin: -1rem 0;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -20,6 +21,7 @@ html {
 
 header {
   background-color: #ffe500;
+  margin: -1rem;
 }
 
 h1 {
@@ -78,6 +80,7 @@ li {
 img {
   display: block;
   text-align: left;
+  width: 100%;
 }
 
 p {
@@ -87,4 +90,9 @@ p {
 footer {
   background-color: #ffe500;
   font-size: .75rem;
+  margin: -1rem;
+}
+
+.footer {
+  margin: 1rem;
 }
