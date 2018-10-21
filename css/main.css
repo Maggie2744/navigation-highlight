@@ -106,5 +106,8 @@ footer {
 }
 
 figure {
-
+  width: auto;
+  text-align: left;
+  margin: inherit;
+  margin-bottom: 2em;
 }
