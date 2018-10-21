@@ -17,8 +17,17 @@ html {
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-h1, h2 {
+h1 {
+  font-size: 3rem;
   font-family: 'Sigmar One', sans-serif;
+  color: #b20953;
+  background-color: #ffe500;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-family: 'Sigmar One', sans-serif;
+  color: #b20953;
 }
 
 .nav a {
@@ -31,9 +40,17 @@ h1, h2 {
 }
 
 .nav a:hover {
-  background-color:
+  background-color: #cc1465;
 }
 
 .nav .current {
   background-color:
+}
+
+p {
+  color: #2f2d13;
+}
+
+footer {
+  background-color: #ffe500;
 }
