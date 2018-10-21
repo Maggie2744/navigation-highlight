@@ -38,9 +38,8 @@ h2 {
 .nav a {
   display: inline-block;
   padding: 0.5em 0.75em;
-  background-color:
-  border-radius
   text-decoration: none;
+  color: white;
 }
 
 li {
@@ -54,7 +53,7 @@ li {
 }
 
 .nav .current {
-  background-color:
+  background-color: #b20953;
 }
 
 .nav {
@@ -62,13 +61,14 @@ li {
   padding: .2em .5em .3em;
   list-style-type: none;
   text-decoration: none;
+  text-align: center;
 }
 
 .nav li {
   display: inline-block;
-  margin: .3em;
+  margin: 0;
   max-width: inherit;
-  padding: .2em .5em .3em;
+  padding: 0;
   background-color: #b2a212;
   border: 3px solid #b2a212;
   border-radius: 4px;
