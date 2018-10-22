@@ -54,6 +54,12 @@ li {
   color: white;
 }
 
+.nav a:hover {
+  background-color: #cc1465;
+  color: white;
+  border-radius: 4px;
+}
+
 .nav .current {
   background-color: #b20953;
   border: 0.1px solid #b20953;
