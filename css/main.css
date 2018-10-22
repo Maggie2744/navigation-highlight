@@ -30,8 +30,8 @@ h1 {
   color: #b20953;
   text-align: center;
   padding: .75em;
-  padding-top: 0em;
-  padding-bottom: 0em;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 h2 {
@@ -80,10 +80,10 @@ li {
 .nav li {
   display: inline-block;
   margin: 0;
-  max-width: inherit;
+  max-width: 400px;
   padding: 0;
   background-color: #b2a212;
-  border: .10px solid #b2a212;
+  border: .1px solid #b2a212;
   border-radius: 4px;
 }
 
@@ -92,7 +92,7 @@ li {
 }
 
 body {
-
+  margin: .3em;
 }
 
 img {
