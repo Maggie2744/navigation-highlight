@@ -38,11 +38,13 @@ h2 {
   font-size: 1.875rem;
   font-family: "Sigmar One", sans-serif;
   color: #b20953;
+  padding: .5em;
+  margin-bottom: -.05em;
 }
 
 .nav a {
   display: inline-block;
-  padding: .5em;
+  padding: .25em;
   text-decoration: none;
   color: white;
 }
@@ -123,11 +125,6 @@ figure {
   margin: inherit;
   margin-bottom: 2em;
   padding: 1em;
-}
-
-h2 {
-  padding: .5em;
-  margin-bottom: -.05em;
 }
 
 .caption {
