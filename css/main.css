@@ -89,6 +89,7 @@ li {
 
 .text {
   padding-bottom: 1em;
+  margin: 1em;
 }
 
 body {
@@ -121,4 +122,14 @@ figure {
   text-align: left;
   margin: inherit;
   margin-bottom: 2em;
+  padding: 1em;
+}
+
+h2 {
+  padding: .5em;
+  margin-bottom: -.05em;
+}
+
+.caption {
+  padding-top: 1em;
 }
